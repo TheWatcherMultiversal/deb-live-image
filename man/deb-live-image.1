@@ -1,0 +1,57 @@
+." Process this file with
+." groff -man -Tascii live.1
+."
+.TH deb-live-image "1" "" "" "User commands"
+
+.SH NAME
+live - deb-live-image
+
+.SH SYNOPSIS
+.B live
+.OP OPTIONS
+.OP FILE
+
+.SH DESCRIPTION
+.B deb-live-image
+is a set of scripts that streamline the use of the live-build and live-config tools for creating custom Debian-live images.
+
+.SH OPTIONS
+
+.B "-h | --help"\fR
+		Print this help and exit.
+
+.B "-c | --config"\fR
+	   Creating configuration files with lb config.
+
+.B "-b | --build"\fR
+	    Image building process.
+
+.B "-m | --man"\fR
+		 Man page.
+
+.SH FILES
+.TP
+.I
+/live.sh
+.TP
+.I
+/conf/config.py
+.TP
+.I
+/debian_src/
+
+
+.SH AUTHOR 
+.PP
+Developed by Angel Gabriel Mortera Gual <https://github.com/TheWatcherMultiversal>
+
+
+.SH REPORTING BUGS
+.PP
+Report errors or suggestions to my email <universepenguin@protonmail.com>
+
+.SH SEE ALSO
+.PP
+.br
+More information in <https://github.com/TheWatcherMultiversal/deb-live-image>
+
